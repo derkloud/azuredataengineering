@@ -1,0 +1,17 @@
+{
+	"name": "Create Agency Master table",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE [dbo].[NYC_Payroll_AGENCY_MD]( [AgencyID] [varchar](10) NULL, [AgencyName] [varchar](50) NULL )  GO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "derk034sqlpool1",
+				"poolName": "derk034sqlpool1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Dataset_synapse_nyc_payroll_title_md",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "derk034synapseanalytics1-WorkspaceDefaultSqlServer",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"DBName": "derk034sqlpool1"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "dbo.NYC_Payroll_TITLE_MD"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
